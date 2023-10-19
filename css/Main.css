@@ -1,0 +1,248 @@
+:root{
+    --site-color-01:#dfacb0;
+    --site-color-01-hover:#c08084;
+    /* we use this as a var to be used in many boxes elements at*/
+}
+html{
+    font-size: 62.5%;
+}
+
+@font-face{
+    font-family: italic-vibe;
+    src:url(../fonts\ family/LUmanosimo-Regular.ttf)
+}
+
+body{
+    background-color:#1A1719;
+    width:100%;
+}
+body:after{
+    position:absolute;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    z-index: -1;
+    content:url(../images/fb\ logo.jpg)url(../images/insta\ logo\ -\ Copy.jpg )
+}
+
+.wrapper-main{
+    width:100px;
+    margin: 0 auto;
+}
+
+h1{
+    font-size: 2.6rem;
+    line-height: 1.5;
+    color: #bedde6;
+    font-family:Roboto ;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+h2{
+    font-size: 2.6rem;
+    line-height: 1.5;
+    color: #bedde6;
+    font-family:Roboto ;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+h3{
+    font-size: 2.6rem;
+    line-height: 1.5;
+    color: #bedde6;
+    font-family:Roboto ;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+
+p{
+    font-size: 1.4rem;
+    line-height: 1.75;
+    color: #fff;
+    font-family:Roboto ;
+  
+}
+
+a{
+    font-size: 1.4rem;
+    line-height: 1.75;
+    color: #517287;
+    font-family:Roboto ;
+    cursor:pointer;/*just gives u a ponter instead of flesh when going over the links */ 
+}
+
+.header-main{
+    position: fixed;
+    top:0;
+    width:100%;
+    height:60px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.header-main-logo{
+    width:fit-content;
+    height: 100%;
+  
+    padding-left: 60px;
+    display:flex ;
+    align-items:center;
+}
+
+.header-main-nav{
+    width:fit-content;
+    height: 100%;
+   
+
+
+}
+.header-main-nav ul{
+    list-style: none;
+    margin-left: 10px;
+}
+
+.header-main-nav ul li{
+    display: inline;
+    float: left;
+    
+}
+
+.header-main-nav ul li a{
+    padding: 0 10px 0 10px;
+    font-family: italic-vibe;
+    line-height: 30px;
+    display: block;
+    height: 100%;
+}
+.header-main-nav ul li a:hover{ /* when ur come over it with the mouve the color will change that s all*/
+   color:coral;
+}
+
+.header-main-sm{
+    width:120px;
+    height: 100%;
+   
+    display: flex;
+    align-items:center;
+    column-gap:10px;
+} 
+
+.header-main-logo img{
+    width:100px;
+    size-adjust: 100px;
+    height: 60px;
+    align-self: center;
+    padding-right: 60px; 
+} 
+
+.header-main-sm-fb{
+width: 20px;
+height: 20px;
+background-image: url(../images/fb\ logo\ -\ Copy.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+.header-main-sm-fb:hover{
+    background-image: url(../images/fb\ logo\ -\ Copy.jpg);
+    }
+
+.header-main-sm-in{
+    width: 20px;
+    height: 20px;
+    background-image: url(../images/bw\ insta\ logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    .header-main-sm-in:hover{
+        background-image: url(../images/insta\ logo\ -\ Copy.jpg);
+        }
+    .Main-text {
+     print-color-adjust: red;
+
+    }
+    /* this is put footer*/
+    .footer-main{
+        width: 100%;
+        padding: 60px 0 100px;
+        background-color: #141414;
+  
+    }
+    
+    .footer-main-flex{
+        display:flex ;
+        justify-content: center;
+        margin-left: 25%;
+        
+        flex-wrap: wrap;
+    }
+    .ARTWORKS{
+        flex-basis: 80%;
+        display: flex;
+        justify-self: center;
+      
+    }
+    .ARTWORKS img {
+        width:30%;
+        border-radius:300px;
+    }
+
+    .ARTWORKS p{
+        text-align: center;
+        font-size: 1.4rem;
+        padding: 10px 20px 0;
+    
+    }
+    .footer-getintouch {
+        padding: 10px 60px 0;
+        border: 2px solid white;
+        margin: 60px 0 50px;
+        font-weight: 600;
+        transition: all ease-in-out 200ms;
+         margin-left: 600px;
+    }
+    .footer-getintouch:hover {
+        border: 4px solid var(--site-color-01);
+    }
+    .footer-sitemap {
+       flex-basis:100%;
+       display: flex;
+       margin-left:500px;
+      
+    }
+
+    .footer-sitemap  a{
+        color:#bedde6;
+         line-height:30px;
+    } 
+
+    .footer-sitemap  a:hover{
+        opacity: 0.8;
+   } 
+    .footer-sitemap ul:nth-child(1){
+        border-left: 3px solid var(--site-color-01);
+        padding-left: 20px;
+    }
+
+    .footer-sitemap ul:nth-child(1), .footer-sitemap ul:nth-child(2) {
+        flex-basis:320px;
+       
+     }
+     .footer-sitemap ul:nth-child(3) p{
+        flex-basis:480px;
+       
+     }
+     .footer-sitemap ul:nth-child(4) p{
+        text-transform: 1;
+       
+     }
+     .footer-sitemap p{
+        text-transform: uppercase;
+        flex-basis:500px;
+     }
+     
+
+    

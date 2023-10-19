@@ -1,0 +1,129 @@
+body{
+    background-color: #f0d8da;
+}
+
+h1{
+   color:#393958 ;
+   font-size:18px;
+   margin-top:20px;
+   margin-left:250px;
+   font-style: italic;
+   
+   text-shadow: rgb(148, 105, 105) 3px 5px 3px;
+ 
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.video-part video{
+    width:200;
+    padding:10px 60px 10px 60px;
+margin-left:230px;
+background-color: rgb(72, 72, 116);
+display:block;
+border: double  10px #e6e0e0;
+border-radius: 20px;
+}
+
+.pictures{
+    margin-left:330px;
+
+}
+
+.pictures h3{
+   
+    color:rgb(55, 66, 95);
+    font-size:18px;
+    color:rgb(57, 57, 88) ;
+    font-size:20px;
+    margin-top:20px;
+    margin-left:365px;
+    font-style: italic;
+    
+} 
+.pictures img{
+    width:200px;
+   
+    padding:20px 20px 20px 20px;
+    margin-left:40px;
+    border: solid 3px rgb(41, 41, 80);
+    border-radius: 8px;;
+}
+
+.art1 img{
+    background-color: rgb(167, 145, 160);
+   
+}
+
+.bluepen img{
+    background-color: rgb(148, 148, 187);
+}
+
+.bw img{
+    background-color: rgb(230, 215, 219);
+}
+.color-pen img{
+    margin-left:120px;
+    background-color: rgb(212, 183, 183);
+}
+
+.degital img{
+    background-color: rgb(111, 98, 119);
+    margin-left:120px;
+}
+
+.illust img{
+    margin-left:120px;
+    background-color: rgb(223, 171, 184);
+}
+
+.painting img{
+    margin-right:-15px;
+    background-color: rgb(165, 147, 159);
+}
+
+
+.ps img{
+    margin-right:-15px;
+    background-color: rgb(149, 148, 172);
+    
+}
+
+p{
+    font-size:22px;
+    color:#393958;
+    margin-left:450px;
+    font-style:italic;
+
+}
+
+.contact{
+    width:200px;
+    text-align: center;
+    text-decoration: none;
+    font-size:16px;
+    color:#352b52;
+    display:block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: double 4px rgb(42, 42, 66);
+    margin-left:650px;
+    margin-bottom:80px;
+}
+.contact:hover{
+    background-color:#393958;
+    color:#f0d8da;
+    height:35px;
+   
+}
+.pictures p{
+ display:inline;
+ margin:98px;
+ font-size:22px;
+ font-style: italic;
+ font-family:Georgia, 'Times New Roman', Times, serif;
+ 
+ 
+}
+.p1, .p2{
+    display:inline;
+    margin:105px;
+}
